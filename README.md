@@ -34,8 +34,8 @@ New features and improvements are coming soon. Stay tuned! 🌟
 ## 📬 Stay Connected
 
 Follow for updates and progress snapshots!  
-🔗 [https://www.linkedin.com/in/islam-jahidul-jihad](#)  
-🔗 [https://jahiduljihad.netlify.app](#)
+🔗 [LinkedIn](https://www.linkedin.com/in/islam-jahidul-jihad)  
+🔗 [Portfolio](https://jahiduljihad.netlify.app)
 
 ---
 
