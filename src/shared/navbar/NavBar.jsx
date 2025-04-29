@@ -1,21 +1,35 @@
-import { BsDropletFill } from "react-icons/bs";
+import { BsDropletFill, BsPeople } from "react-icons/bs";
+import { IoCreateOutline, IoSearchCircleOutline } from "react-icons/io5";
 import { MdOutlineBloodtype } from "react-icons/md";
+import { RiHome9Line } from "react-icons/ri";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
     const links = (
         <>
             <li>
-                <Link>Home</Link>
+                <Link>
+                    <RiHome9Line />
+                    Home
+                </Link>
             </li>
             <li>
-                <Link>About Us</Link>
+                <Link>
+                    <BsPeople />
+                    About Us
+                </Link>
             </li>
             <li>
-                <Link>Find Blood</Link>
+                <Link>
+                    <IoSearchCircleOutline />
+                    Find Blood
+                </Link>
             </li>
             <li>
-                <Link>Register</Link>
+                <Link>
+                    <IoCreateOutline />
+                    Register
+                </Link>
             </li>
         </>
     );
@@ -58,7 +72,9 @@ const NavBar = () => {
                     </a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">{links}</ul>
+                    <ul className="menu menu-horizontal px-1 text-error">
+                        {links}
+                    </ul>
                 </div>
                 <div className="navbar-end">
                     <a className="btn btn-error btn-soft">
