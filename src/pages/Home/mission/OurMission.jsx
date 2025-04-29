@@ -8,9 +8,12 @@ const OurMission = () => {
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Explicabo non mollitia eius cupiditate architecto facere ut,
                 doloribus laboriosam quis inventore cum, rerum enim cumque
-                laudantium. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit. Iste consequuntur eligendi quaerat commodi laboriosam quae
-                molestias magnam libero amet minima.
+                laudantium.{" "}
+                <span className="hidden md:inline">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit.Iste consequuntur eligendi quaerat commodi laboriosam
+                    quae molestias magnam libero amet minima.
+                </span>
             </p>
         </div>
     );
