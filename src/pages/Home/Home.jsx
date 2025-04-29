@@ -1,4 +1,5 @@
 import Hero from "./hero/Hero";
+import OurMission from "./mission/OurMission";
 
 const Home = () => {
     return (
@@ -6,6 +7,10 @@ const Home = () => {
             {/* Hero */}
             <Hero></Hero>
             {/* Hero end */}
+
+            {/* Our mission */}
+            <OurMission></OurMission>
+            {/* Our mission end */}
         </div>
     );
 };
