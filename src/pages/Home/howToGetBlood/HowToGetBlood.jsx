@@ -33,7 +33,7 @@ const HowToGetBlood = () => {
                 </p>
             </div>
 
-            <div className="border-2 p-4 rounded border-error border-dashed relative flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20">
+            <div className="border-2 md:border-none p-4 rounded border-error border-dashed relative flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20">
                 {steps.map((step, index) => (
                     <motion.div
                         key={step.id}
