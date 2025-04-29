@@ -28,7 +28,7 @@ const HowToGetBlood = () => {
                 <h1 className="text-4xl font-bold text-center text-[#f64245]">
                     How to Get Blood?
                 </h1>
-                <p className="text-center">
+                <p className="text-center text-gray-400 mt-2">
                     Request for blood with 3 easy step.
                 </p>
             </div>

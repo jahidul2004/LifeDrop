@@ -3,9 +3,16 @@ import ColabCard from "../../../components/colabCard/ColabCard";
 const OurCollaborators = () => {
     return (
         <div className="my-10 md:my-20">
-            <h1 className="text-4xl font-bold text-[#f64245] text-center">
-                Our Collaborators
-            </h1>
+            <div className="text-center">
+                <h1 className="text-4xl font-bold text-[#f64245] text-center mb-2">
+                    Our Collaborators
+                </h1>
+                <p className="text-gray-400">
+                    We are proud to partner with dedicated organizations and
+                    individuals who share our <br /> mission to save lives through
+                    blood donation.
+                </p>
+            </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 mt-10">
                 <ColabCard
