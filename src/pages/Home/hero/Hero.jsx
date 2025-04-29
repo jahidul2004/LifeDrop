@@ -5,7 +5,7 @@ import { LuDroplets } from "react-icons/lu";
 
 const Hero = () => {
     return (
-        <div className="grid grid-cols-2 justify-center items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center my-5">
             {/* Lottie */}
             <div>
                 <Lottie animationData={lottieFiles}></Lottie>
@@ -13,7 +13,7 @@ const Hero = () => {
             {/* Lottie end */}
 
             {/* Info */}
-            <div className="text-right">
+            <div className="text-center md:text-right">
                 <h1 className="text-3xl md:text-5xl font-bold mb-5">
                     Save Life Donate{" "}
                     <span className="text-[#f64245]">Blood</span>
@@ -23,9 +23,12 @@ const Hero = () => {
                     Odio ducimus omnis tenetur expedita dicta consequuntur magni
                     tempore temporibus molestiae magnam aperiam, deleniti
                     nostrum, laborum sit nesciunt quas autem dolorem, minima
-                    facere aliquid et impedit repellendus incidunt. Vel
-                    exercitationem mollitia aperiam. Lorem ipsum dolor sit amet
-                    consectetur, adipisicing elit. Vel, quam?
+                    facere aliquid et impedit repellendus incidunt.{" "}
+                    <span className="hidden md:inline">
+                        {" "}
+                        Vel exercitationem mollitia aperiam. Lorem ipsum dolor
+                        sit amet consectetur, adipisicing elit. Vel, quam?
+                    </span>
                 </p>
                 <Link className="mt-5 btn btn-soft btn-error text-[#f64245]">
                     <LuDroplets />
