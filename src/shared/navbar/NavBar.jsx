@@ -8,25 +8,25 @@ const NavBar = () => {
     const links = (
         <>
             <li>
-                <Link>
+                <Link to={"/"}>
                     <RiHome9Line />
                     Home
                 </Link>
             </li>
             <li>
-                <Link>
+                <Link to={"/about"}>
                     <BsPeople />
                     About Us
                 </Link>
             </li>
             <li>
-                <Link>
+                <Link to={"/find-blood"}>
                     <IoSearchCircleOutline />
                     Find Blood
                 </Link>
             </li>
             <li>
-                <Link>
+                <Link to={"/registration"}>
                     <IoCreateOutline />
                     Register
                 </Link>
