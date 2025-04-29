@@ -3,7 +3,7 @@ import ColabCard from "../../../components/colabCard/ColabCard";
 const OurCollaborators = () => {
     return (
         <div className="my-10 md:my-20">
-            <h1 className="text-3xl font-bold text-[#f64245]">
+            <h1 className="text-4xl font-bold text-[#f64245] text-center">
                 Our Collaborators
             </h1>
 

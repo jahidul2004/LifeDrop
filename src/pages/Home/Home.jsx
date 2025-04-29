@@ -1,5 +1,6 @@
 import OurCollaborators from "./collaborators/OurCollaborators";
 import Hero from "./hero/Hero";
+import HowToGetBlood from "./howToGetBlood/HowToGetBlood";
 import OurMission from "./mission/OurMission";
 
 const Home = () => {
@@ -12,6 +13,10 @@ const Home = () => {
             {/* Our mission */}
             <OurMission></OurMission>
             {/* Our mission end */}
+
+            {/* How to get blood? */}
+            <HowToGetBlood></HowToGetBlood>
+            {/* How to get blood? end */}
 
             {/* Collaborators */}
             <OurCollaborators></OurCollaborators>
