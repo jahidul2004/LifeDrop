@@ -1,3 +1,4 @@
+import OurCollaborators from "./collaborators/OurCollaborators";
 import Hero from "./hero/Hero";
 import OurMission from "./mission/OurMission";
 
@@ -11,6 +12,10 @@ const Home = () => {
             {/* Our mission */}
             <OurMission></OurMission>
             {/* Our mission end */}
+
+            {/* Collaborators */}
+            <OurCollaborators></OurCollaborators>
+            {/* Collaborators end */}
         </div>
     );
 };
