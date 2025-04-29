@@ -77,10 +77,13 @@ const NavBar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn btn-error btn-soft">
+                    <Link
+                        to={"/registration"}
+                        className="btn btn-error btn-soft"
+                    >
                         <MdOutlineBloodtype />
                         Join With Us
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>
