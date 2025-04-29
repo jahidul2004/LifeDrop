@@ -1,8 +1,11 @@
+import Hero from "./hero/Hero";
 
 const Home = () => {
     return (
-        <div>
-            I am from home component
+        <div className="w-[95%] md:container mx-auto">
+            {/* Hero */}
+            <Hero></Hero>
+            {/* Hero end */}
         </div>
     );
 };
