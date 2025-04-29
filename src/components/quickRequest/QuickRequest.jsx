@@ -5,7 +5,7 @@ const QuickRequest = () => {
     const navigate = useNavigate();
 
     const handleClick = () => {
-        navigate("/emergency-request"); // Replace with your actual route
+        navigate("/emergency");
     };
 
     return (

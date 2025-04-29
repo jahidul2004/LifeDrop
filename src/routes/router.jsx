@@ -4,6 +4,7 @@ import Home from "../pages/Home/Home";
 import AboutUs from "../pages/AboutUs/AboutUs";
 import FindBlood from "../pages/FindBlood/FindBlood";
 import Register from "../pages/register/Register";
+import Emergency from "../pages/emergencyBlood/Emergency";
 
 const router = createBrowserRouter([
     {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
             {
                 path: "/registration",
                 element: <Register></Register>,
+            },
+            {
+                path: "/emergency",
+                element: <Emergency></Emergency>,
             },
         ],
     },
