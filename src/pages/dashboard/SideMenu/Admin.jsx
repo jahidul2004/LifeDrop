@@ -2,7 +2,7 @@ import React from 'react'
 
 const Admin = () => {
     return (
-        <div>
+        <div className='flex'>
             <div className="bg-white shadow-md rounded-lg p-6 border ">
                 <h3 className="text-xl font-semibold mb-1  text-[#f64245]  ">Admin</h3>
                 <p className="text-sm text-gray-500 mb-2">Oversee the platform.</p>
