@@ -6,9 +6,13 @@ import FindBlood from "../pages/FindBlood/FindBlood";
 import Register from "../pages/register/Register";
 import Emergency from "../pages/emergencyBlood/Emergency";
 import Dashboard from "../pages/dashboard/DashBoard";
+import DashLayout from "../layouts/DashLayout";
 import Organization from "../pages/dashboard/SideMenu/Organization";
 import Doner from "../pages/dashboard/SideMenu/Doner";
 import Admin from "../pages/dashboard/SideMenu/Admin";
+
+
+
 
 const router = createBrowserRouter([
     {
@@ -37,9 +41,32 @@ const router = createBrowserRouter([
             },
             {
                 path: "/dashboard",
-                element: <Dashboard/>,
+                element: <DashLayout/>,
+                children: [
+                    {
+                        path:"/dashboard",
+                        element: <Dashboard/>
+                    },
+                    {
+                        path: "/dashboard/organization",
+                        element: <Organization />
+                    },
+                    {
+                        path: "/dashboard/doner",
+                        element: <Doner />
+                    },
+                    {
+                        path: "/dashboard/admin",
+                        element: <Admin/>
+                    },
+
+
+                ]
 
             },
+
+
+
 
 
         ],
