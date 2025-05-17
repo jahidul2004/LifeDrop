@@ -3,7 +3,6 @@ import NavBar from "../shared/navbar/NavBar";
 import Footer from "../shared/footer/Footer";
 import QuickRequest from "../components/quickRequest/QuickRequest";
 
-
 const MainLayout = () => {
     return (
         <div>
