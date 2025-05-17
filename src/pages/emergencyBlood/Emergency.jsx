@@ -2,10 +2,13 @@ const Emergency = () => {
     return (
         <div className="min-h-screen bg-base-100 py-10 px-4">
             <div className="max-w-2xl mx-auto bg-base-200 p-8 rounded-xl shadow-lg">
-                <h2 className="text-3xl font-bold text-center mb-6 text-red-500">
-                    Welcome <br />
-                    Emergency Blood Portal
+                <h2 className="text-3xl font-bold text-center mb-2 text-[#f64245]">
+                    Welcome Emergency Blood Portal
                 </h2>
+                <p className="text-center mb-6">
+                    Request for blood via this portal if you need blood
+                    emergency. Otherwise we cancel your request.
+                </p>
 
                 <form className="space-y-6">
                     {/* Patient Info */}

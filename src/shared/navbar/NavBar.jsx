@@ -67,19 +67,19 @@ const NavBar = () => {
                         </ul>
                     </div>
                     <a className="text-2xl font-semibold flex items-center gap-2">
-                        <BsDropletFill size={32} className="text-error" />
-                        Life<span className="text-error">Drop</span>
+                        <BsDropletFill size={32} className="text-[#f64245]" />
+                        Life<span className="text-[#f64245]">Drop</span>
                     </a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1 text-error">
+                    <ul className="menu menu-horizontal px-1 text-[#f64245]">
                         {links}
                     </ul>
                 </div>
                 <div className="navbar-end">
                     <Link
                         to={"/registration"}
-                        className="btn btn-error btn-soft"
+                        className="btn btn-error btn-soft text-[#f64245]"
                     >
                         <MdOutlineBloodtype />
                         Join With Us
